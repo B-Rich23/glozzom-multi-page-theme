@@ -11,6 +11,7 @@ $(function () {
     });
 });
 
+// Lightbox for photo gallery section
 $(document).on('click', '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
