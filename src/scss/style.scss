@@ -17,11 +17,12 @@ body {
         border-left: 3px solid #444;
     }
 }
-
-.carousel-item {
-    height: 450px;
+.carousel-inner {
+    background: black;
+    .carousel-item {
+        height: 450px;
+    }
 }
-
 .carousel-image-1 {
     background: url('../img/bw-keyboard.jpg');
     background-size: cover;
