@@ -23,17 +23,17 @@ body {
 }
 
 .carousel-image-1 {
-    background: url('../img/image1.jpg');
+    background: url('../img/bw-keyboard.jpg');
     background-size: cover;
 }
 
 .carousel-image-2 {
-    background: url('../img/image2.jpg');
+    background: url('../img/black-speaker.jpg');
     background-size: cover;
 }
 
 .carousel-image-3 {
-    background: url('../img/image3.jpg');
+    background: url('../img/black-camera.jpg');
     background-size: cover;
 }
 
@@ -63,10 +63,11 @@ body {
  #video-play {
     position: relative;
     min-height: 200px;
-    background: url(../img/media.jpg);
+    background: url(../img/blur-bridge.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 0 -300px;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     color: #fff;
     
@@ -76,15 +77,17 @@ body {
  }
 
  footer#main-footer{
-     background: #000;
+     background: #AA076B;
      color: #fff;
  }
 
  #page-header {
-     height: 250px;
-     background: url('../img/image1.jpg');
-     background-position: 0 -360px;
+     height: 275px;
+     background: url('../img/bw-keyboard.jpg');
+     background-position:center;
      background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
      color: #fff;
      border-bottom: 1px solid #eee;
      padding-top: 90px;
@@ -96,11 +99,17 @@ body {
      }
  }
 
+ #services {
+     i {
+         font-size: 36px;
+     }
+ }
+
  #faq {
      .card {
          border: #444;
          a {
-             color: #fff;
+            //  color: #fff;
              text-decoration: none;
          }
      }
@@ -108,3 +117,4 @@ body {
          background: #333;
      }
  }
+
