@@ -77,6 +77,10 @@ body {
     }
  }
 
+ #gallery.py-5 img.img-fluid:hover {
+     transform: scale(1.1);
+ }
+
  footer#main-footer{
      background: #AA076B;
      color: #fff;
