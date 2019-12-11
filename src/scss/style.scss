@@ -1,6 +1,7 @@
 $icon-size: 55px;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 
+html,
 body {
     overflow-x: hidden;
 }
@@ -36,6 +37,7 @@ body {
 .carousel-image-3 {
     background: url('../img/black-camera.jpg');
     background-size: cover;
+    // background-position: center;
 }
 
 .fa {
@@ -71,7 +73,7 @@ body {
     background-size: cover;
     text-align: center;
     color: #fff;
-    
+
     a {
         color: #fff;
     }
@@ -123,3 +125,21 @@ body {
      }
  }
 
+
+//  Media Queries
+
+@media (max-width:575px) {
+    #myCarousel {
+        .carousel-item.carousel-image-1{
+            h1.display-3 {
+                font-size: 2rem !important;
+            }
+        }
+    }
+    .photo {
+        margin-bottom: 1em !important;
+        margin-top: 0;
+    }
+}
+
+// #myCarousel > div > div > div > div > h1

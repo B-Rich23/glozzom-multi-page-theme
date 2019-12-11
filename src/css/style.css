@@ -1,3 +1,4 @@
+html,
 body {
   overflow-x: hidden; }
 
@@ -60,6 +61,9 @@ body {
   #video-play a {
     color: #fff; }
 
+#gallery.py-5 img.img-fluid:hover {
+  transform: scale(1.1); }
+
 footer#main-footer {
   background: #AA076B;
   color: #fff; }
@@ -88,3 +92,10 @@ footer#main-footer {
 
 #faq .card-body, #faq .card-header {
   background: #333; }
+
+@media (max-width: 575px) {
+  #myCarousel .carousel-item.carousel-image-1 h1.display-3 {
+    font-size: 2rem !important; }
+  .photo {
+    margin-bottom: 1em !important;
+    margin-top: 0; } }
