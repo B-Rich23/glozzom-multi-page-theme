@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Glozzom Theme</title>
+    <title>Avatton Theme</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
@@ -19,7 +19,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
         <div class="container">
-            <a href="../index.html" class="navbar-brand">Glozzom</a>
+            <a href="../index.html" class="navbar-brand">Avatton</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <div class="card card__services text-center">
                         <div class="card-header bg-dark text-white">
                             <h3>Service Plan One</h3>
                         </div>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <div class="card card__services text-center">
                         <div class="card-header bg-dark text-white">
                             <h3>Service Plan Two</h3>
                         </div>
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <div class="card card__services text-center">
                         <div class="card-header bg-dark text-white">
                             <h3>Service Plan Three</h3>
                         </div>
@@ -187,8 +187,8 @@
                                 </h5>
                             </div>
                             <div id="collapseOne" class="collapse">
-                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium 
+                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium
                                     quo ullam cupiditate aperiam eveniet soluta neque veniam sint nesciunt nisi tenetur?
                                 </div>
                             </div>
@@ -202,8 +202,8 @@
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse">
-                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium 
+                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium
                                     quo ullam cupiditate aperiam eveniet soluta neque veniam sint nesciunt nisi tenetur?
                                 </div>
                             </div>
@@ -217,8 +217,8 @@
                                 </h5>
                             </div>
                             <div id="collapseThree" class="collapse">
-                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium 
+                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium
                                     quo ullam cupiditate aperiam eveniet soluta neque veniam sint nesciunt nisi tenetur?
                                 </div>
                             </div>
@@ -236,8 +236,8 @@
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse">
-                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium 
+                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium
                                     quo ullam cupiditate aperiam eveniet soluta neque veniam sint nesciunt nisi tenetur?
                                 </div>
                             </div>
@@ -251,8 +251,8 @@
                                 </h5>
                             </div>
                             <div id="collapseFive" class="collapse">
-                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium 
+                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium
                                     quo ullam cupiditate aperiam eveniet soluta neque veniam sint nesciunt nisi tenetur?
                                 </div>
                             </div>
@@ -266,8 +266,8 @@
                                 </h5>
                             </div>
                             <div id="collapseSix" class="collapse">
-                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium 
+                                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sunt pariatur sed accusantium fuga, labore tempore recusandae, nihil praesentium
                                     quo ullam cupiditate aperiam eveniet soluta neque veniam sint nesciunt nisi tenetur?
                                 </div>
                             </div>
@@ -285,7 +285,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p>Copyright &copy; 2018 Glozzom</p>
+                    <p>&copy;<span id="year"></span> Avatton</p>
                 </div>
             </div>
         </div>
@@ -299,6 +299,12 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
+
 </body>
 
 </html>

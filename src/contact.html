@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Glozzom Theme</title>
+    <title>Avatton Theme</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
@@ -19,7 +19,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
         <div class="container">
-            <a href="../index.html" class="navbar-brand">Glozzom</a>
+            <a href="../index.html" class="navbar-brand">Avatton</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -84,25 +84,25 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" 
+                                        <input type="text" class="form-control"
                                         placeholder="First Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" 
+                                        <input type="text" class="form-control"
                                         placeholder="Last Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" 
+                                        <input type="email" class="form-control"
                                         placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" 
+                                        <input type="text" class="form-control"
                                         placeholder="Phone Number">
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" 
+                                        <textarea class="form-control"
                                         placeholder="Message"></textarea>
                                     </div>
                                 </div>
@@ -131,25 +131,26 @@
             <h1>Our Staff</h1>
             <hr>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 staff-job">
                     <img src="img/person6.jpg" alt="" class="img-fluid rounded-circle mb-2">
                     <h4>Jane Taylor</h4>
-                    <small>Marketing Manager</small>
+                    <small class="staff-job">Marketing Manager</small>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 staff-job">
                     <img src="img/person5.jpg" alt="" class="img-fluid rounded-circle mb-2">
                     <h4>Sara Williams</h4>
-                    <small>Business Manager</small>
+                    <small class="staff-job">Business Manager</small>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 staff-job">
                     <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle mb-2">
                     <h4>Steven Jones</h4>
-                    <small>CEO</small>
+                    <small class="staff-job">CEO</small>
+                    &nbsp;
                 </div>
                 <div class="col-md-3">
                     <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle mb-2">
                     <h4>Drake Martin</h4>
-                    <small>Web Developer</small>
+                    <small class="staff-job">Web Developer</small>
                 </div>
             </div>
         </div>
@@ -161,7 +162,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p>Copyright &copy; 2018 Glozzom</p>
+                    <p>&copy;<span id="year"></span> Avatton</p>
                 </div>
             </div>
         </div>
@@ -175,6 +176,12 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
+
 </body>
 
 </html>

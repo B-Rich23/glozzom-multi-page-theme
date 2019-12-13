@@ -96,6 +96,23 @@ footer#main-footer {
 @media (max-width: 575px) {
   #myCarousel .carousel-item.carousel-image-1 h1.display-3 {
     font-size: 2rem !important; }
+  #myCarousel .carousel-item.carousel-image-2 h1.display-3 {
+    font-size: 2rem !important; }
+  #myCarousel .carousel-item.carousel-image-3 h1.display-3 {
+    font-size: 2rem !important; }
+  .gallery__row--1 {
+    margin-bottom: 0 !important; }
   .photo {
     margin-bottom: 1em !important;
+    margin-top: 0; }
+  .icon-boxes__row--1 {
+    margin-bottom: 0 !important; }
+  .card__about {
+    margin-bottom: 1em !important;
+    margin-top: 0; }
+  .card__services {
+    margin-bottom: 1em !important;
+    margin-top: 0; }
+  #staff div.col-md-3.staff-job {
+    margin-bottom: 2.5em !important;
     margin-top: 0; } }
