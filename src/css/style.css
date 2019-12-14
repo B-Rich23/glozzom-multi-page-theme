@@ -103,7 +103,13 @@ footer#main-footer {
     background-size: cover !important;
     color: #fff;
     border-bottom: 1px solid #eee;
-    padding-top: 90px; } }
+    padding-top: 90px; }
+  #home-heading {
+    background-attachment: initial;
+    background-size: cover !important; }
+  #video-play {
+    background-attachment: initial;
+    background-size: cover !important; } }
 
 @media (max-width: 575px) {
   #myCarousel .carousel-item.carousel-image-1 h1.display-3 {
