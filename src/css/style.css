@@ -137,6 +137,6 @@ footer#main-footer {
   #home-heading {
     min-height: 250px; }
     #home-heading .dark-overlay {
-      margin-bottom: 2em !important; }
+      margin-bottom: -2em !important; }
       #home-heading .dark-overlay .ready {
         height: 100%; } }
