@@ -93,6 +93,18 @@ footer#main-footer {
 #faq .card-body, #faq .card-header {
   background: #333; }
 
+@media (max-width: 824px) {
+  #page-header {
+    min-height: 275px;
+    background: url("../img/bw-keyboard.jpg");
+    background-position: center;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+    padding-top: 90px; } }
+
 @media (max-width: 575px) {
   #myCarousel .carousel-item.carousel-image-1 h1.display-3 {
     font-size: 2rem !important; }
