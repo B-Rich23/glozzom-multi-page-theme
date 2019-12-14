@@ -134,9 +134,7 @@ footer#main-footer {
   #staff div.col-md-3.staff-job {
     margin-bottom: 2.5em !important;
     margin-top: 0; }
-  #home-heading {
-    min-height: 250px; }
-    #home-heading .dark-overlay {
-      margin-bottom: -2em !important; }
-      #home-heading .dark-overlay .ready {
-        height: 100%; } }
+  #home-heading .dark-overlay {
+    margin-bottom: -2em !important; }
+    #home-heading .dark-overlay .ready {
+      height: 100%; } }
